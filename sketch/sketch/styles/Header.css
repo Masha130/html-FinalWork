@@ -1,0 +1,46 @@
+.Header{
+    margin: 16px 310px;
+}
+.Header__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Header-navigation__item{
+    align-items: center;
+    color: #000;
+    display: flex;
+    font-weight: 500;
+    margin-bottom: 35px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+.Header__content-navigation{
+    display: flex;
+    align-items: center;
+}
+.Header-user{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+   margin-bottom: 35px;
+}
+.Header__content-user{
+    display: inline;
+    gap: 12px;
+    align-items: center;
+    padding-left: 30rem;
+    
+} 
+.Header-navigation__logo{
+    align-items: center;
+    display: flex;
+    height: 100%;
+    position: relative;
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+.Header-navigation__logo > svg{
+    fill: #000000
+}
+

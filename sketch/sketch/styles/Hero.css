@@ -1,0 +1,147 @@
+.Hero{
+    display: flex;
+    justify-content: space-between;
+    gap: 5.5rem;
+    max-width: 75rem;
+    padding: 8rem 0 6rem;
+    margin: 0 auto;
+    overflow: hidden;
+    vertical-align: initial;
+    width: 900px;
+}
+.hero__orbs-wrapper{
+    height: 160rem;
+    left: 0;
+    overflow: hidden;
+    pointer-events: none;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    border: 0;
+    font: inherit;
+    margin: 0;
+    padding: 0;
+    vertical-align: initial;
+}
+.hero__orbs {
+    display: flex;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    height: auto;
+    left: 50%;
+    overflow-x: clip;
+    transform: translateX(-50%);
+    width: 240rem;
+}
+
+.hero__title{
+    display: inline-block;
+    text-wrap: balance;
+    font-size: 4.75rem;
+    font-weight: 900;
+    line-height: 4.75rem;
+    border: 0;
+    font: inherit;
+    padding: 0;
+    vertical-align: initial;
+    margin-top: 100px;
+    font-size: 6rem;
+    letter-spacing: -2px;
+    line-height: 6rem;
+    min-width: 44.5rem;
+    max-width: 35.625rem;
+    font-weight: bold;
+    width: 450px;
+    z-index: 0;
+}
+.hero__aside{
+    z-index: 1;
+   margin-left: 780px;
+   margin-top: -197px;
+  
+}
+
+.hero__lead{
+   justify-content: space-between;
+   height: 96px;
+   font-size: 1.5rem;
+   letter-spacing: -.5px;
+   line-height: 2rem;
+   width: 550px;
+}
+
+
+.hero .button--glow {
+        margin-left: .25rem;
+    }
+    .mb-6 {
+        margin-bottom: 1.5rem;
+    }
+    .button--glow {
+        border-radius: 6px;
+        position: relative;
+    }
+    .button--primary {
+        background-color: #000;
+        color: #fff;
+    }
+    .button {
+        align-items: center;
+        background-color: initial;
+        border: 1px solid #0000;
+        border-radius: 6px;
+        box-shadow: 0 1px 2px #0000001a;
+        display: inline-flex;
+        font-weight: 600;
+        justify-content: center;
+        line-height: 1.5;
+        min-height: 3rem;
+        padding: .6875rem .9375rem;
+        position: relative;
+        transition: all 125ms ease;
+        width: auto;
+        background-color: #000;
+        text-decoration: none;
+        margin-right: 100px;
+        box-sizing: border-box;
+    }
+    .button:before {
+        background-position: 50%;
+        content: "";
+        height: 1.5rem;
+        left: calc(50% - .75rem);
+        opacity: 0;
+        position: absolute;
+        top: calc(50% - .75rem);
+        transition: opacity .25s ease;
+        width: 1.5rem;
+        box-sizing: border-box;
+    }
+    .hero .button--glow:after {
+        background-image: linear-gradient(144deg, #fc7a9b, #b47eee);
+    }
+    .button--glow:after {
+        animation: glow 2s ease infinite;
+        background-image: linear-gradient(8deg, #fb8931, #fbce89);
+        background-size: 300%;
+        border-radius: .625rem;
+        content: "";
+        display: block;
+        height: calc(100% + 10px);
+        left: -.3125rem;
+        position: absolute;
+        top: -.3125rem;
+        width: calc(100% + 10px);
+        z-index: -1;
+        box-sizing: border-box;
+    }
+
+    .hero__disclaimer {
+        color: #00000052;
+        font-size: .9375rem;
+        font-weight: 400;
+        line-height: 1.25rem;
+    }
+    
